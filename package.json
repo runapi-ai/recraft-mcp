@@ -1,7 +1,7 @@
 {
   "name": "@runapi.ai/recraft-mcp",
-  "version": "0.1.0",
-  "description": "RunAPI MCP server for one model line: create tasks, poll status, and check pricing with one API key.",
+  "version": "0.1.1",
+  "description": "Recraft MCP server for RunAPI — create Recraft AI tasks (remove background, upscale image), poll status, and check pricing across 2 models with one API key.",
   "type": "module",
   "main": "dist/src/index.js",
   "bin": {
@@ -27,7 +27,16 @@
     "runapi",
     "mcp",
     "model-context-protocol",
-    "ai"
+    "ai",
+    "recraft",
+    "recraft-mcp",
+    "recraft-ai",
+    "recraft-api",
+    "image-generation",
+    "ai-image",
+    "ai-upscaling",
+    "remove-background",
+    "upscale-image"
   ],
   "author": "RunAPI",
   "license": "Apache-2.0",
