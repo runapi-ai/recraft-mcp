@@ -1,0 +1,36 @@
+{
+  "catalog_models": [
+    "recraft-remove-background",
+    "recraft-crisp-upscale"
+  ],
+  "actions": {
+    "recraft/remove-background": {
+      "model": "Recraft",
+      "endpoint": "remove_background",
+      "models": [
+        "recraft-remove-background"
+      ],
+      "fields_by_model": {
+        "recraft-remove-background": {
+          "source_image_url": {
+            "required": true
+          }
+        }
+      }
+    },
+    "recraft/upscale-image": {
+      "model": "Recraft",
+      "endpoint": "upscale_image",
+      "models": [
+        "recraft-crisp-upscale"
+      ],
+      "fields_by_model": {
+        "recraft-crisp-upscale": {
+          "source_image_url": {
+            "required": true
+          }
+        }
+      }
+    }
+  }
+}

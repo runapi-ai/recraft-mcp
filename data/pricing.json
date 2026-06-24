@@ -1,0 +1,10 @@
+{
+  "endpoints": {
+    "recraft-remove-background/remove_background": {
+      "unit_price_cents": 1
+    },
+    "recraft-crisp-upscale/upscale_image": {
+      "unit_price_cents": 1
+    }
+  }
+}
