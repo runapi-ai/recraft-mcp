@@ -1,7 +1,7 @@
 {
   "name": "@runapi.ai/recraft-mcp",
-  "version": "0.1.1",
-  "description": "Recraft MCP server for RunAPI — create Recraft AI tasks (remove background, upscale image), poll status, and check pricing across 2 models with one API key.",
+  "version": "0.1.2",
+  "description": "RunAPI Recraft MCP server for image generation: create tasks, poll results, and check pricing across 2 model variants from Claude Code, Codex, Cursor, and VS Code.",
   "type": "module",
   "main": "dist/src/index.js",
   "bin": {
@@ -25,12 +25,16 @@
   },
   "keywords": [
     "runapi",
+    "runapi-ai",
     "mcp",
+    "mcp-server",
     "model-context-protocol",
-    "ai",
+    "ai-agents",
+    "claude-code",
+    "cursor",
+    "vscode",
     "recraft",
     "recraft-mcp",
-    "recraft-ai",
     "recraft-api",
     "image-generation",
     "ai-image",
@@ -40,7 +44,7 @@
   ],
   "author": "RunAPI",
   "license": "Apache-2.0",
-  "homepage": "https://runapi.ai",
+  "homepage": "https://runapi.ai/models/recraft",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/runapi-ai/recraft-mcp.git"
