@@ -7,13 +7,21 @@
     "recraft/remove-background": {
       "model": "Recraft",
       "endpoint": "remove_background",
+      "task_type": "asynchronous",
       "models": [
         "recraft-remove-background"
       ],
       "fields_by_model": {
         "recraft-remove-background": {
+          "model": {
+            "type": "string"
+          },
           "source_image_url": {
+            "type": "string",
             "required": true
+          },
+          "callback_url": {
+            "type": "string"
           }
         }
       }
@@ -21,13 +29,21 @@
     "recraft/upscale-image": {
       "model": "Recraft",
       "endpoint": "upscale_image",
+      "task_type": "asynchronous",
       "models": [
         "recraft-crisp-upscale"
       ],
       "fields_by_model": {
         "recraft-crisp-upscale": {
+          "model": {
+            "type": "string"
+          },
           "source_image_url": {
+            "type": "string",
             "required": true
+          },
+          "callback_url": {
+            "type": "string"
           }
         }
       }
